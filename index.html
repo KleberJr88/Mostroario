@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostruário de Perfumes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="header">
+      <div class="cabecalho">
+        <button class="botao-menu" id="botao-menu" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+        <h1>Mostruário de Perfumes</h1>
+      </div>
+
+      <nav class="menu" id="menu">
+        <a href="index.html" class="ativo">🏠 Home</a>
+        <a href="categoria.html?slug=body-splashes">Body Splashes</a>
+        <a href="categoria.html?slug=perfumes-femininos">Perfumes Femininos</a>
+        <a href="categoria.html?slug=perfumes-masculinos">Perfumes Masculinos</a>
+        <a href="categoria.html?slug=combos">Combos</a>
+      </nav>
+    </header>
+
+    <main class="catalogo" id="catalogo"></main>
+  </div>
+
+  <script src="js/produtos.js"></script>
+  <script src="js/catalogo.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
